@@ -84,7 +84,7 @@ class SitemapController extends Controller
         $xml = $sitemapper->generateXml();
 
         // Return XML response
-        return response($xml, 200, ['Content-Type' => 'application/xml']);
+        return response($xml, 200)->header('Content-Type', 'text/xml');
     }
 }
 ```
