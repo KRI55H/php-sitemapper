@@ -1,0 +1,44 @@
+{
+  "name": "kri55h/php-sitemapper",
+  "title": "php-sitemapper",
+  "description": "php-sitemapper: A lightweight and powerful PHP library for generating dynamic XML sitemaps effortlessly. Designed to help developers enhance their website's SEO by creating search-engine-friendly sitemaps, this tool is perfect for small and large-scale projects alike.",
+  "type": "library",
+  "keywords": [
+    "PHP sitemap generator",
+    "Dynamic XML sitemap",
+    "SEO-friendly sitemap library",
+    "Generate sitemaps in PHP",
+    "Lightweight PHP sitemap tool",
+    "Laravel sitemap generator",
+    "Dynamic sitemap generator",
+    "sitemapper php"
+  ],
+  "homepage": "https://github.com/KRI55H/php-sitemapper",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Krish Siddhapura",
+      "email": "siddhapurakrish007@gmail.com",
+      "role": "Founder"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6"
+  },
+  "scripts": {
+    "test": "phpunit --configuration phpunit.xml"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kri55h\\": "src/"
+    }
+  },
+  "support": {
+    "issues": "https://github.com/KRI55H/php-sitemapper/issues",
+    "source": "https://github.com/KRI55H/php-sitemapper"
+  }
+}
